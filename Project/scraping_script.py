@@ -11,8 +11,8 @@ try:
     password = contents.replace("=", ",").split(",")[3]
 except:
     f = open("linkedin_credentials.txt", "w+")
-    username = "chafale@usc.edu"
-    password = "LinkedIn@2021"
+    username = "XXXXXXX"
+    password = "XXXXXXX"
     f.write("username={}, password={}".format(username, password))
     f.close()
 
